@@ -43,13 +43,13 @@ body{
 
 /*todas as modificações de botões estão abaixo*/
 .botao{
-    font-family: "Chakra-Petch", sans-serif;
+    font-family: "Chakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
     justify-content: center;
     padding: 1em;
-    font-size: 16px;
+    font-size: 24px;
     align-items: center;
     width: 100%;
     border-bottom: 2px solid var(--botao-ativo);
@@ -58,9 +58,35 @@ body{
     border-top: none;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 2px solid var(--rosa);
+}
+
+.abas-textos{
+    background-color: var(--temporizador);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display: block;
+}
+
+.aba-conteudo{
+    display:none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 32px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+    font-size: 18px;
+    color: var(--rosa);
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
